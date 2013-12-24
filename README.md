@@ -1,4 +1,7 @@
-ja-demo-toolbar
+JA Toolbar Demo 
 ===============
 
-JA Demo Toolbar
+The package allows you to build your own toolbar demo.
+
+Live Demo: http://joomlart.com/demo
+Blog | Documentation: 
