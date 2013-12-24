@@ -1,0 +1,72 @@
+#container {
+  position: relative;
+  width: 100%;  
+}
+
+.item {
+  display: block;
+  float: left;
+  border: solid 5px #000;
+}
+
+.metro {
+  position: absolute;
+}
+
+/* background */
+.style1 {background: red;}
+.style2 {background: green;}
+.style3 {background: blue;}
+.style4 {background: yellow;}
+.style5 {background: cyan;}
+.style6 {background: grey;}
+.style7 {background: snow;}
+.style8 {background: purple;}
+.style9 {background: purple;}
+.style10 {background: peru;}
+
+/* grid */
+.item {height: 100px;}
+.item.rs-2 {height: 200px;}
+.item.rs-3 {height: 300px;}
+.item.rs-4 {height: 400px;}
+.item.rs-5 {height: 500px;}
+
+.item.cs-full {width: 100%;}
+
+.grid3 .item {width: 33%;}
+.grid3 .item.cs-2 {width: 66%;}
+.grid3 .item.cs-3 {width: 100%;}
+
+.grid4 .item {width: 25%;}
+.grid4 .item.cs-2 {width: 50%;}
+.grid4 .item.cs-3 {width: 75%;}
+.grid4 .item.cs-4 {width: 100%;}
+
+.grid5 .item {width: 20%;}
+.grid5 .item.cs-2 {width: 40%;}
+.grid5 .item.cs-3 {width: 60%;}
+.grid5 .item.cs-4 {width: 80%;}
+.grid5 .item.cs-5 {width: 100%;}
+
+.grid6 .item {width: 16.66%;}
+.grid6 .item.cs-2 {width: 33.33%;}
+.grid6 .item.cs-3 {width: 50%;}
+.grid6 .item.cs-4 {width: 66.66%;}
+.grid6 .item.cs-5 {width: 82.66%;}
+.grid6 .item.cs-6 {width: 100%;}
+
+/* animate */
+.metro {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  -webkit-transition-property: all;
+     -moz-transition-property: all;
+      -ms-transition-property: all;
+       -o-transition-property: all;
+          transition-property: all;          
+}

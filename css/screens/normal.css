@@ -1,0 +1,7 @@
+#catalog {
+  width: 980px; /* 240px * 4 cols + 20px (padding) */
+}
+
+.products-wrap-inner {
+  height: 320px; /* 160px * 3 rows */
+}
